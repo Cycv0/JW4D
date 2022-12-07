@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,9 +9,8 @@
     <title>Document</title>
 </head>
 <body>
-<?php
-$tekst = "Płyta Główna ATX";
-$tekst = mb_str_split(1, 16, 1,);
-print_r($tekst);
-?>
+    <?php
+
+
+    ?>
 
