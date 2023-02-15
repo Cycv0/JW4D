@@ -15,30 +15,15 @@
     <title>Document</title>
 </head>
 <body>
-<table style="width:100% border-style:solid border-width:2px background-color:#FFFFE0;
-">
-    <tr>
-        <th>pon</th>
-        <td style="background-color:cyan;">wto</td>
-        <th>sro</th>
-        <td style="background-color:cyan;">czw</td>
-        <th>pia</th>
-        <td style="background-color:cyan;">sob</td>
-        <th>nie</th>
-    </tr>
-</table>
-
-<pre>
+<table style="width:100% border-style:solid border-width:2px background-color:#FFFFE0;">
     <?php
-    $dni = array("pon", "wto", "sro", "czw", "pia", "sob", "nie");
+    $dni = for ($x = 0; $x <= 10; $x++);
     foreach ($dni as &$v) {
     }
     ?>
-<?php
-    foreach ($dni as $dni){
-    echo "<td>". $dni. "</td>";
-}
+    <?php
+        echo "<td>". $dni. "</td>";
+    }
     ?>
-</pre>
 </body>
 </html>

@@ -35,12 +35,10 @@ echo date('H:i:s',strtotime("+8 hours"));
     <?php
     $dni =  array ("Poniedzialek", "Wtorek", "Sroda", "Czwartek", "Piatek", "Sobota", "Niedziela");
     $mies = array ("Styczen", "Luty", "Marzec", "Kwiecien", "Maj", "Czerwiec", "Lipiec", "Sierpien", "Wrzesien", "Pazdziernik", "Listopad", "Grudzien");
-    echo "urodzilem sie ";
-    $D = date ("23-04-2004");
-    $dni [date("2",$D)];
-
-
 ?>
+    <p>Urodzilem sie
+    <?=(date("N"), $d) == 2 ||date("N", $d) == 4) ? "we" : "w" ?>
+    <?= $dayNames
 </pre>
 </body>
 </html>
