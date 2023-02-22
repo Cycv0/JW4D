@@ -8,9 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    $m = array("styczen", "luty", "marzec", "kwiecien", "maj", "czerwiec","lipiec", "sierpien", "wrzesien", "pazdziernik", "listopad", "grudzien");
-        foreach ($)
 
-    ?>
+<form action="5.php" method="post">
+    <textarea name="5">
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eros purus, venenatis et elit vel, scelerisque maximus leo. Phasellus sollicitudin vehicula massa, ut congue lorem tincidunt quis. Donec molestie orci et eros consectetur auctor. Duis mattis quam quis lectus imperdiet tristique. Nam blandit interdum dolor ut fermentum. Proin mattis feugiat.
+</textarea> <br>
+<input type="submit">
 
+</form>
+<?php
+if($_server[`REQUEST METOD`]==="POST"
+{
+    echo $_POST['5']
+}
+
+else
+     ?>
+<form method="POST">
+    </form>
+<?php
+}

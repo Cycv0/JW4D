@@ -8,7 +8,11 @@
     <title>Document</title>
 </head>
 <body>
+<style>
+    fieldset{
+        border-width:2px;
 
+</style>
 
 <fieldset>
     <legend>Rocznik</legend>
