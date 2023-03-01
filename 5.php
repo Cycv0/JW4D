@@ -8,25 +8,24 @@
     <title>Document</title>
 </head>
 <body>
-
-<form action="5.php" method="post">
-    <textarea name="5">
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eros purus, venenatis et elit vel, scelerisque maximus leo. Phasellus sollicitudin vehicula massa, ut congue lorem tincidunt quis. Donec molestie orci et eros consectetur auctor. Duis mattis quam quis lectus imperdiet tristique. Nam blandit interdum dolor ut fermentum. Proin mattis feugiat.
-</textarea> <br>
-<input type="submit">
-
-</form>
-<?php
-if($_server[`REQUEST METOD`]==="POST"
-{
-    echo $_POST['5']
-}
-
-else
-     ?>
-<form method="POST">
+<br>
+<fieldset>
+    <legend>Lorem50</legend>
+    <?php
+    if($_SERVER['REQUEST_METHOD']==='POST'){
+        echo'<h3>Oto Wpisany tekst:</h3>'.' '.$_POST["tekst"].'</p>';
+    }
+    else {
+        echo "
+    <form method='POST'>
+        <textarea cols='50' name='tekst'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto debitis delectus earum esse expedita, illo iste iusto libero minima obcaecati quas quos repellendus sapiente soluta vel voluptas. A ab alias aliquam culpa cum delectus ducimus eligendi esse ipsam iste laborum nemo nesciunt numquam quas quo reiciendis repudiandae, temporibus voluptatibus   </textarea> <br>
+        <input type='submit'>
     </form>
-<?php
-}
+";
+    }
+    ?>
+
+</fieldset>
+</body>
+</html>
+
